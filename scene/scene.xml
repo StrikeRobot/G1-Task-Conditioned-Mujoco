@@ -1,0 +1,308 @@
+<mujoco model="AES_Scene"><include file="robot/robot.xml" /><compiler angle="radian" />
+  <option gravity="0 0 -9.81" timestep="0.002" cone="elliptic" impratio="100" />
+  <visual>
+    <rgba haze="0.15 0.25 0.35 1" />
+  </visual>
+  <default><geom solref="0.01 1" solimp="0.9 0.95 0.001" />
+    </default><asset><texture type="skybox" builtin="gradient" rgb1="0.3 0.5 0.7" rgb2="0 0 0" width="512" height="512" />
+    <texture name="floor_tex" type="2d" builtin="checker" rgb1="0.2 0.3 0.4" rgb2="0.1 0.15 0.2" width="512" height="512" />
+    <material name="floor_mat" texture="floor_tex" texrepeat="20 15" reflectance="0.0" />
+    <material name="mat_obj_dropped_Minimalist_Computer_Desk_with_Monitor" rgba="0.5 0.5 0.5 1.0" specular="0.2" shininess="0.2" reflectance="0.02" />
+    <material name="mat_obj_dropped_thangtt___luoi_b4e7d2" rgba="0.502 0.502 0.502 0.85" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_Portable_Handheld_Sewing_Machine" rgba="0.55 0.55 0.6 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_Trestle_Wood_Dining_Table" rgba="0.6 0.63 0.68 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_dup_5d30f2" rgba="0.6 0.63 0.68 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_dup_94e565" rgba="0.6 0.63 0.68 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_dup_cf2f54" rgba="0.6 0.63 0.68 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_Ergonomic_Fabric_Gaming_Chair" rgba="0.22 0.22 0.22 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_Modern_Ladderback_Dining_Chair" rgba="0.55 0.38 0.18 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_dup_e01b51" rgba="0.55 0.38 0.18 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_dup_1105e7" rgba="0.55 0.38 0.18 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_dup_76a654" rgba="0.55 0.38 0.18 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_Blue_Platform_Utility_Trolley" rgba="0.94 0.78 0.32 1.0" specular="0.9" shininess="0.9" reflectance="0.6" />
+    <material name="mat_obj_dropped_Open_Blue_Cardboard_Box" rgba="0.78 0.62 0.38 1.0" specular="0.2" shininess="0.15" reflectance="0.02" />
+    <material name="mat_obj_dropped_Rugged_Industrial_Storage_Case" rgba="0.5 0.5 0.5 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_Industrial_Angular_Sewing_Machine" rgba="0.1 0.1 0.1 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_Industrial_Vending_Machine" rgba="0.9 0.5 0.1 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_Modern_Quilted_Bar_Stool" rgba="0.0 0.196 0.0 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_Blue_Rectangular_Vending_Machine" rgba="0.784 0.784 0.784 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_Blue_Double_Lid_Chest_Freezer" rgba="0.784 0.784 0.784 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_Compact_Blue_Desktop_Printer" rgba="0.55 0.55 0.6 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_Lying_Human_Figure" rgba="0.71 0.71 0.71 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_Open_Blue_Book" rgba="0.95 0.95 0.93 1.0" specular="0.1" shininess="0.1" reflectance="0.0" />
+    <material name="mat_obj_dropped_thangtt___ban_l_fd12fb" rgba="0.502 0.502 0.502 0.95" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_7be506" rgba="0.0 0.196 0.0 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_32c5fc" rgba="0.0 0.196 0.0 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_ca81a6" rgba="0.0 0.196 0.0 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_0886b4" rgba="0.0 0.196 0.0 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_4587e6" rgba="0.6 0.63 0.68 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_12_compartment_grid_organizer_tray" rgba="0.5 0.5 0.5 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_dup_9c084d" rgba="0.071 0.071 0.235 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_dup_17510c" rgba="0.071 0.071 0.235 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_dup_015d75" rgba="0.071 0.071 0.235 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_Compact_Six_Bottle_Spice_Rack" rgba="0.5 0.3 0.1 1.0" specular="0.2" shininess="0.2" reflectance="0.02" />
+    <material name="mat_obj_dropped_Blue_Rectangular_Trash_Bin" rgba="0.004 0.259 0.0 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_Blue_Wooden_Storage_Shelf" rgba="0.66 0.66 0.69 1.0" specular="0.6" shininess="0.6" reflectance="0.3" />
+    <material name="mat_obj_dropped_thangtt___tam_chan_8e978d" rgba="0.502 0.502 0.502 0.9" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_60c113" rgba="0.502 0.502 0.502 0.9" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_e3a84e" rgba="0.502 0.502 0.502 0.9" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_thangtt___tuong_7ec81a" rgba="0.502 0.502 0.502 0.75" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_thangtt___tuong_56ac02" rgba="0.9 0.9 0.92 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_thangtt___cua_76dfbb" rgba="0.882 0.882 0.976 0.61" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_dup_b21f1d" rgba="0.502 0.502 0.502 0.75" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_5024be" rgba="0.9 0.9 0.92 1.0" specular="0.4" shininess="0.4" reflectance="0.05" />
+    <material name="mat_obj_dropped_dup_c6a90a" rgba="0.502 0.502 0.502 0.95" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_thangtt___rong_roc_648196" rgba="0.22 0.22 0.22 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <material name="mat_obj_dropped_dup_c3a354" rgba="0.149 0.149 0.149 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_dup_11e5c1" rgba="0.129 0.129 0.129 1.0" specular="0.7" shininess="0.7" reflectance="0.4" />
+    <material name="mat_obj_dropped_dup_7e15d5" rgba="0.161 0.161 0.161 1.0" specular="0.5" shininess="0.5" reflectance="0.0" />
+    <mesh name="dropped_Minimalist_Computer_Desk_with_Monitor" file="assets/uv_00b271fd1d1842bc8f2f5a290443f06e.stl" scale="1.000000 1.000000 1.000000" />
+    <mesh name="dropped_thangtt___luoi_b4e7d2" file="assets/thangtt___luoi_b4e7d2.stl" scale="0.00065 0.0005 0.000833333333" />
+    <mesh name="dropped_Portable_Handheld_Sewing_Machine" file="assets/lvis_5370268604124a97.stl" scale="1.904762 3.571429 2.000000" />
+    <mesh name="dropped_Trestle_Wood_Dining_Table" file="assets/abo_B075YMW6VR.stl" scale="1.000000 1.000000 1.000000" />
+    <mesh name="dropped_Ergonomic_Fabric_Gaming_Chair" file="assets/abo_B07DC168ZT.stl" scale="1.000000 1.000000 1.000000" />
+    <mesh name="dropped_Modern_Ladderback_Dining_Chair" file="assets/abo_B075YMW6W9.stl" scale="1.000001 1.000000 1.000000" />
+    <mesh name="dropped_Blue_Platform_Utility_Trolley" file="assets/uv_7194695c69654bf79ae054082e4e7b8a.stl" scale="0.999999 1.000000 1.000000" />
+    <mesh name="dropped_Open_Blue_Cardboard_Box" file="assets/uv_390e8201432a4ef3813316953cacee95.stl" scale="1.000000 1.000000 1.000000" />
+    <mesh name="dropped_Rugged_Industrial_Storage_Case" file="assets/uv_320d935472354cc79590bc35ade9d855.stl" scale="0.877158 2.049339 2.631579" />
+    <mesh name="dropped_Industrial_Angular_Sewing_Machine" file="assets/uv_1e46878101394d4598dac171399686a5.stl" scale="1.000000 1.000002 1.000000" />
+    <mesh name="dropped_Industrial_Vending_Machine" file="assets/uv_0bc70e765e214e5f9fe926a10c03153b.stl" scale="1.000000 1.000000 1.000000" />
+    <mesh name="dropped_Modern_Quilted_Bar_Stool" file="assets/uv_015951355152476aa84b7514ced18591.stl" scale="0.999999 0.999999 1.000000" />
+    <mesh name="dropped_Blue_Rectangular_Vending_Machine" file="assets/lvis_71bc97b4714e4341.stl" scale="1.000244 1.066780 1.000000" />
+    <mesh name="dropped_Blue_Double_Lid_Chest_Freezer" file="assets/lvis_9566a7ad9cd144f9.stl" scale="2.061856 2.114165 2.222222" />
+    <mesh name="dropped_Compact_Blue_Desktop_Printer" file="assets/lvis_c22dd018d6d148d0.stl" scale="1.000000 1.000000 1.000000" />
+    <mesh name="dropped_Lying_Human_Figure" file="assets/obj_0e1209d1_400b_45aa_8e7d_7445d18892b8_eafc571418d1.stl" scale="0.752634 0.769174 0.863071" />
+    <mesh name="dropped_Open_Blue_Book" file="assets/lvis_0c5f6748af964d12.stl" scale="1.000000 1.000000 1.000000" />
+    <mesh name="dropped_thangtt___ban_l_fd12fb" file="assets/thangtt___ban_l_fd12fb.stl" scale="0.002000 0.002000 0.000889" />
+    <mesh name="dropped_dup_4587e6" file="assets/abo_B075YMW6VR.stl" scale="1.009273 0.799737 1.000330" />
+    <mesh name="dropped_12_compartment_grid_organizer_tray" file="assets/uv_45036250839f4a619afd196d214a1d90.stl" scale="8.869180 10.020040 6.666667" />
+    <mesh name="dropped_Compact_Six_Bottle_Spice_Rack" file="assets/uv_2d2b61df6fa7407b99d9a3a131d87b3d.stl" scale="1.115242 1.107011 0.997211" />
+    <mesh name="dropped_Blue_Rectangular_Trash_Bin" file="assets/uv_4a256b223e414b738bfd85b2e113bf3a.stl" scale="1.000000 1.000000 1.000000" />
+    <mesh name="dropped_Blue_Wooden_Storage_Shelf" file="assets/uv_3f94a21284954eb5897cf608d1a617f6.stl" scale="0.999797 1.000487 0.500000" />
+    <mesh name="dropped_thangtt___tam_chan_8e978d" file="assets/thangtt___tam_chan_8e978d.stl" scale="0.001000 0.000500 0.000833" />
+    <mesh name="dropped_dup_60c113" file="assets/thangtt___tam_chan_8e978d.stl" scale="0.000333 0.000500 0.000833" />
+    <mesh name="dropped_dup_e3a84e" file="assets/thangtt___tam_chan_8e978d.stl" scale="0.000667 0.000500 0.000833" />
+    <mesh name="dropped_thangtt___tuong_7ec81a" file="assets/thangtt___tuong_7ec81a.stl" scale="0.000667 0.002000 0.001000" />
+    <mesh name="dropped_thangtt___tuong_56ac02" file="assets/thangtt___tuong_56ac02.stl" scale="0.001000 0.001333 0.001000" />
+    <mesh name="dropped_thangtt___cua_76dfbb" file="assets/thangtt___cua_76dfbb.stl" scale="0.001000 0.000885 0.001190" />
+    <mesh name="dropped_thangtt___rong_roc_648196" file="assets/thangtt___rong_roc_648196.stl" scale="0.000858 0.001000 0.000855" />
+    <material name="black" rgba="0.2 0.2 0.2 1" />
+    <material name="metal" rgba="0.7 0.7 0.7 1" />
+    <mesh name="dropped_dup_3057d8" file="assets/thangtt___luoi_b4e7d2.stl" scale="0.0007 0.0005 0.000833333333" /><mesh name="dropped_dup_0a24ed" file="assets/thangtt___luoi_b4e7d2.stl" scale="0.0007 0.0005 0.000833333333" /><mesh name="dropped_dup_7c00a6" file="assets/abo_B07DC168ZT.stl" scale="1.000000 1.000000 1.000000" /><mesh name="dropped_dup_b1a827" file="assets/abo_B07DC168ZT.stl" scale="1.000000 1.000000 1.000000" /><material name="mat_obj_dropped_Azure_Velvet_Square_Throw_Pillow" rgba="0.8 0.72 0.45 1.0" specular="0.3" shininess="0.25" reflectance="0.03" /><mesh name="dropped_Azure_Velvet_Square_Throw_Pillow" file="assets/abo_B074VLRNLC.stl" scale="2.28972331 2.38121976 1.69710137" /><material name="mat_obj_dropped_Mid_Century_Modern_Low_Back_Dining_Chair" rgba="0.78 0.8 0.83 1.0" specular="0.7" shininess="0.6" reflectance="0.4" /><mesh name="dropped_Mid-Century_Modern_Low-Back_Dining_Chair" file="assets/abo_B075YMXWZM.stl" scale="1.000000 1.000000 1.000000" /><material name="mat_obj_dropped_Blue_Multi_Compartment_Storage_Tray" rgba="0.5 0.3 0.1 1.0" specular="0.4" shininess="0.4" reflectance="0.05" /><mesh name="dropped_Blue_Multi-Compartment_Storage_Tray" file="assets/uv_4525d20aa1224624b738b6aa3a390a03.stl" scale="5 4.13650465 4.24929178" /><material name="mat_obj_dropped_thangtt___coc_414dec" rgba="0.847 1.0 0.42 1.0" specular="0.5" shininess="0.5" reflectance="0.0" /><mesh name="dropped_thangtt___coc_414dec" file="assets/thangtt___coc_414dec.stl" scale="0.0013876988 0.00125038862 0.0015" /><mesh name="dropped_dup_aa9938" file="assets/thangtt___coc_414dec.stl" scale="0.0013876988 0.00125038862 0.0015" /><mesh name="dropped_dup_eddc31" file="assets/uv_320d935472354cc79590bc35ade9d855.stl" scale="0.877158 2.049339 2.631579" /><mesh name="dropped_dup_10e3ff" file="assets/uv_320d935472354cc79590bc35ade9d855.stl" scale="0.877158 2.049339 2.631579" /><mesh name="dropped_dup_f9d9bb" file="assets/uv_320d935472354cc79590bc35ade9d855.stl" scale="0.877158 2.049339 2.631579" /><material name="mat_obj_dropped_dup_3057d8" rgba="0.502 0.502 0.502 0.85" specular="0.5" shininess="0.5" reflectance="0.0" /><material name="mat_obj_dropped_dup_0a24ed" rgba="0.502 0.502 0.502 0.85" specular="0.5" shininess="0.5" reflectance="0.0" /><mesh name="dropped_dup_ca8117" file="assets/uv_00b271fd1d1842bc8f2f5a290443f06e.stl" scale="1.000000 1.000000 1.000000" /><mesh name="dropped_dup_8e4f43" file="assets/uv_00b271fd1d1842bc8f2f5a290443f06e.stl" scale="1.000000 1.000000 1.000000" /><mesh name="dropped_dup_391fc1" file="assets/abo_B075YMXWZM.stl" scale="1.000000 1.000000 1.000000" /></asset><worldbody><light diffuse="0.9 0.9 0.9" specular="0.3 0.3 0.3" pos="0 0 3.0" dir="0 0 -1" directional="true" />
+    <geom name="floor" type="plane" size="11.0 8.5 0.1" pos="0 0 0" material="floor_mat" friction="0.9 0.005 0.0001" />
+    <geom name="wall_north" type="box" pos="0 7.5 1.5" size="10.0 0.1 1.5" rgba="0.7 0.7 0.75 0.3" friction="0.9 0.005 0.0001" contype="1" conaffinity="1" />
+    <geom name="wall_south" type="box" pos="0 -7.5 1.5" size="10.0 0.1 1.5" rgba="0.7 0.7 0.75 0.3" friction="0.9 0.005 0.0001" contype="1" conaffinity="1" />
+    <geom name="wall_east" type="box" pos="10.0 0 1.5" size="0.1 7.5 1.5" rgba="0.7 0.7 0.75 0.3" friction="0.9 0.005 0.0001" contype="1" conaffinity="1" />
+    <geom name="wall_west" type="box" pos="-10.0 0 1.5" size="0.1 7.5 1.5" rgba="0.7 0.7 0.75 0.3" friction="0.9 0.005 0.0001" contype="1" conaffinity="1" />
+    <body name="dropped_Minimalist_Computer_Desk_with_Monitor" pos="-11.307896024409004 -10.82308086599302 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_Minimalist_Computer_Desk_with_Monitor" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Minimalist_Computer_Desk_with_Monitor" mesh="dropped_Minimalist_Computer_Desk_with_Monitor" />
+      <site name="label_dropped_Minimalist_Computer_Desk_with_Monitor" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_thangtt___luoi_b4e7d2" pos="-6.488333913007821 -2.7022716006190044 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_thangtt___luoi_b4e7d2" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_thangtt___luoi_b4e7d2" mesh="dropped_thangtt___luoi_b4e7d2" />
+      <site name="label_dropped_thangtt___luoi_b4e7d2" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Portable_Handheld_Sewing_Machine" pos="-3.613834311591371 6.877495973885467 0.762" euler="0.000000 0.000000 -1.570796">
+      <geom name="geom_dropped_Portable_Handheld_Sewing_Machine" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_Portable_Handheld_Sewing_Machine" mesh="dropped_Portable_Handheld_Sewing_Machine" />
+      <site name="label_dropped_Portable_Handheld_Sewing_Machine" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_5d30f2" pos="-7.290476456191136 -4.275330823620211 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_5d30f2" type="mesh" friction="0.6 0.005 0.0001" material="mat_obj_dropped_dup_5d30f2" mesh="dropped_Trestle_Wood_Dining_Table" />
+      <site name="label_dropped_dup_5d30f2" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_94e565" pos="-7.287554830558561 -2.2818691743639428 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_94e565" type="mesh" friction="0.6 0.005 0.0001" material="mat_obj_dropped_dup_94e565" mesh="dropped_Trestle_Wood_Dining_Table" />
+      <site name="label_dropped_dup_94e565" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_cf2f54" pos="-7.287626776323885 -0.29267833591992365 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_cf2f54" type="mesh" friction="0.6 0.005 0.0001" material="mat_obj_dropped_dup_cf2f54" mesh="dropped_Trestle_Wood_Dining_Table" />
+      <site name="label_dropped_dup_cf2f54" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Ergonomic_Fabric_Gaming_Chair" pos="-8.189177940303404 -4.095238334761921 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_Ergonomic_Fabric_Gaming_Chair" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Ergonomic_Fabric_Gaming_Chair" mesh="dropped_Ergonomic_Fabric_Gaming_Chair" />
+      <site name="label_dropped_Ergonomic_Fabric_Gaming_Chair" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Modern_Ladderback_Dining_Chair" pos="-8.158788245628068 -3.026716421816583 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_Modern_Ladderback_Dining_Chair" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_Modern_Ladderback_Dining_Chair" mesh="dropped_Modern_Ladderback_Dining_Chair" />
+      <site name="label_dropped_Modern_Ladderback_Dining_Chair" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_1105e7" pos="-8.118627678568004 -0.32616027419153104 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_1105e7" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_dup_1105e7" mesh="dropped_Modern_Ladderback_Dining_Chair" />
+      <site name="label_dropped_dup_1105e7" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_76a654" pos="-8.160926892719624 -1.813310881954234 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_76a654" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_dup_76a654" mesh="dropped_Modern_Ladderback_Dining_Chair" />
+      <site name="label_dropped_dup_76a654" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Blue_Platform_Utility_Trolley" pos="1.8855584119922257 3.517197011966288 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_Blue_Platform_Utility_Trolley" type="mesh" friction="0.49 0.005 0.0001" material="mat_obj_dropped_Blue_Platform_Utility_Trolley" mesh="dropped_Blue_Platform_Utility_Trolley" />
+      <site name="label_dropped_Blue_Platform_Utility_Trolley" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Open_Blue_Cardboard_Box" pos="-5.706655761700306 -4.657468135445057 0.0" euler="0.0 0.0 0.0">
+      <geom name="geom_dropped_Open_Blue_Cardboard_Box" type="mesh" friction="0.45 0.005 0.0001" material="mat_obj_dropped_Open_Blue_Cardboard_Box" mesh="dropped_Open_Blue_Cardboard_Box" />
+      <site name="label_dropped_Open_Blue_Cardboard_Box" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Rugged_Industrial_Storage_Case" pos="-2.4866429399896814 -1.5456439463407259 0.0" euler="0.0 0.0 0.0">
+      <geom name="geom_dropped_Rugged_Industrial_Storage_Case" type="mesh" friction="0.55 0.005 0.0001" material="mat_obj_dropped_Rugged_Industrial_Storage_Case" mesh="dropped_Rugged_Industrial_Storage_Case" />
+      <site name="label_dropped_Rugged_Industrial_Storage_Case" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Industrial_Angular_Sewing_Machine" pos="-2.9299957867163458 6.84144494158344 0.762" euler="0.000000 0.000000 -1.570796">
+      <geom name="geom_dropped_Industrial_Angular_Sewing_Machine" type="mesh" friction="0.55 0.005 0.0001" material="mat_obj_dropped_Industrial_Angular_Sewing_Machine" mesh="dropped_Industrial_Angular_Sewing_Machine" />
+      <site name="label_dropped_Industrial_Angular_Sewing_Machine" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Industrial_Vending_Machine" pos="-7.920432442687561 6.96363392197359 0.0" euler="0.000000 0.000000 3.141593">
+      <geom name="geom_dropped_Industrial_Vending_Machine" type="mesh" friction="0.55 0.005 0.0001" material="mat_obj_dropped_Industrial_Vending_Machine" mesh="dropped_Industrial_Vending_Machine" />
+      <site name="label_dropped_Industrial_Vending_Machine" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Modern_Quilted_Bar_Stool" pos="-5.639170534544752 3.5283679900618194 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_Modern_Quilted_Bar_Stool" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Modern_Quilted_Bar_Stool" mesh="dropped_Modern_Quilted_Bar_Stool" />
+      <site name="label_dropped_Modern_Quilted_Bar_Stool" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Blue_Rectangular_Vending_Machine" pos="-0.8360364183983879 7.321767530590085 0.0" euler="0.000000 0.000000 0.209440">
+      <geom name="geom_dropped_Blue_Rectangular_Vending_Machine" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Blue_Rectangular_Vending_Machine" mesh="dropped_Blue_Rectangular_Vending_Machine" />
+      <site name="label_dropped_Blue_Rectangular_Vending_Machine" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Blue_Double_Lid_Chest_Freezer" pos="-1.0373686891179257 6.949785671705613 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_Blue_Double_Lid_Chest_Freezer" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Blue_Double_Lid_Chest_Freezer" mesh="dropped_Blue_Double_Lid_Chest_Freezer" />
+      <site name="label_dropped_Blue_Double_Lid_Chest_Freezer" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Compact_Blue_Desktop_Printer" pos="-5.5493970710396985 5.512188224755905 0.8" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_Compact_Blue_Desktop_Printer" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_Compact_Blue_Desktop_Printer" mesh="dropped_Compact_Blue_Desktop_Printer" />
+      <site name="label_dropped_Compact_Blue_Desktop_Printer" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Lying_Human_Figure" pos="1.1006 -3.967 0.0" euler="0.000000 0.000000 3.141593">
+      <geom name="geom_dropped_Lying_Human_Figure" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Lying_Human_Figure" mesh="dropped_Lying_Human_Figure" />
+      <site name="label_dropped_Lying_Human_Figure" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Open_Blue_Book" pos="-7.4340200916369135 -4.205756537546039 0.768" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_Open_Blue_Book" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_Open_Blue_Book" mesh="dropped_Open_Blue_Book" />
+      <site name="label_dropped_Open_Blue_Book" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_thangtt___ban_l_fd12fb" pos="-3.434 5.0122 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_thangtt___ban_l_fd12fb" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_thangtt___ban_l_fd12fb" mesh="dropped_thangtt___ban_l_fd12fb" />
+      <site name="label_dropped_thangtt___ban_l_fd12fb" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_7be506" pos="-4.497116994811423 3.5566114390210046 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_dup_7be506" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_7be506" mesh="dropped_Modern_Quilted_Bar_Stool" />
+      <site name="label_dropped_dup_7be506" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_32c5fc" pos="-3.4087066442261253 3.534508163188251 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_dup_32c5fc" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_32c5fc" mesh="dropped_Modern_Quilted_Bar_Stool" />
+      <site name="label_dropped_dup_32c5fc" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_ca81a6" pos="-2.3073515004432874 3.5383675317138974 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_dup_ca81a6" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_ca81a6" mesh="dropped_Modern_Quilted_Bar_Stool" />
+      <site name="label_dropped_dup_ca81a6" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_0886b4" pos="-1.2053819613514958 3.5425045995127062 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_dup_0886b4" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_0886b4" mesh="dropped_Modern_Quilted_Bar_Stool" />
+      <site name="label_dropped_dup_0886b4" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_4587e6" pos="-3.7758739672332284 6.830569409263487 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_dup_4587e6" type="mesh" friction="0.6 0.005 0.0001" material="mat_obj_dropped_dup_4587e6" mesh="dropped_dup_4587e6" />
+      <site name="label_dropped_dup_4587e6" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_9c084d" pos="-9.789122315159036 -4.260375034943318 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_9c084d" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_dup_9c084d" mesh="dropped_12_compartment_grid_organizer_tray" />
+      <site name="label_dropped_dup_9c084d" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_17510c" pos="-9.794296483499359 -0.21575191057507292 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_17510c" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_dup_17510c" mesh="dropped_12_compartment_grid_organizer_tray" />
+      <site name="label_dropped_dup_17510c" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_015d75" pos="-9.793458597914515 -2.240249679490225 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_015d75" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_dup_015d75" mesh="dropped_12_compartment_grid_organizer_tray" />
+      <site name="label_dropped_dup_015d75" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Compact_Six_Bottle_Spice_Rack" pos="10.398604297493591 6.726605287933312 0.762" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_Compact_Six_Bottle_Spice_Rack" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Compact_Six_Bottle_Spice_Rack" mesh="dropped_Compact_Six_Bottle_Spice_Rack" />
+      <site name="label_dropped_Compact_Six_Bottle_Spice_Rack" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Blue_Rectangular_Trash_Bin" pos="-7.055283840331878 6.983762638567556 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_Blue_Rectangular_Trash_Bin" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_Blue_Rectangular_Trash_Bin" mesh="dropped_Blue_Rectangular_Trash_Bin" />
+      <site name="label_dropped_Blue_Rectangular_Trash_Bin" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_Blue_Wooden_Storage_Shelf" pos="-4.193597016772756 7.028172098482014 0.762" euler="0.000000 0.000000 3.141593">
+      <geom name="geom_dropped_Blue_Wooden_Storage_Shelf" type="mesh" friction="0.55 0.005 0.0001" material="mat_obj_dropped_Blue_Wooden_Storage_Shelf" mesh="dropped_Blue_Wooden_Storage_Shelf" />
+      <site name="label_dropped_Blue_Wooden_Storage_Shelf" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_thangtt___tam_chan_8e978d" pos="2.529988327551518 -2.908311254821819 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_thangtt___tam_chan_8e978d" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_thangtt___tam_chan_8e978d" mesh="dropped_thangtt___tam_chan_8e978d" />
+      <site name="label_dropped_thangtt___tam_chan_8e978d" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_60c113" pos="5.644119428587583 0.010840515707549625 0.0" euler="0.0 0.0 0.0">
+      <geom name="geom_dropped_dup_60c113" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_60c113" mesh="dropped_dup_60c113" />
+      <site name="label_dropped_dup_60c113" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_e3a84e" pos="6.70047034517553 -1.9737671903543792 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_dup_e3a84e" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_e3a84e" mesh="dropped_dup_e3a84e" />
+      <site name="label_dropped_dup_e3a84e" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_thangtt___tuong_7ec81a" pos="2.7150597614056386 4.112971517314015 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_thangtt___tuong_7ec81a" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_thangtt___tuong_7ec81a" mesh="dropped_thangtt___tuong_7ec81a" />
+      <site name="label_dropped_thangtt___tuong_7ec81a" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_thangtt___tuong_56ac02" pos="1.6103032957546242 5.509337059335151 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_thangtt___tuong_56ac02" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_thangtt___tuong_56ac02" mesh="dropped_thangtt___tuong_56ac02" />
+      <site name="label_dropped_thangtt___tuong_56ac02" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_thangtt___cua_76dfbb" pos="4.424236335957621 4.408975593387286 0.0" euler="0.000000 0.000000 2.094395">
+      <geom name="geom_dropped_thangtt___cua_76dfbb" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_thangtt___cua_76dfbb" mesh="dropped_thangtt___cua_76dfbb" />
+      <site name="label_dropped_thangtt___cua_76dfbb" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_b21f1d" pos="5.672546830776642 4.087723002919368 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_dup_b21f1d" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_b21f1d" mesh="dropped_thangtt___tuong_7ec81a" />
+      <site name="label_dropped_dup_b21f1d" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_5024be" pos="6.789486826459618 5.482615390821273 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_5024be" type="mesh" friction="0.4 0.005 0.0001" material="mat_obj_dropped_dup_5024be" mesh="dropped_thangtt___tuong_56ac02" />
+      <site name="label_dropped_dup_5024be" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_c6a90a" pos="8.019002060244325 4.988509797001591 0.0" euler="0.000000 0.000000 1.570796">
+      <geom name="geom_dropped_dup_c6a90a" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_c6a90a" mesh="dropped_dup_60c113" />
+      <site name="label_dropped_dup_c6a90a" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_thangtt___rong_roc_648196" pos="-5.8921 -0.2202 0.0" euler="0.000000 0.000000 0.000000">
+      <geom name="geom_dropped_thangtt___rong_roc_648196" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_thangtt___rong_roc_648196" mesh="dropped_thangtt___rong_roc_648196" />
+      <site name="label_dropped_thangtt___rong_roc_648196" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_c3a354" pos="-4.479408929671479 -4.9017563708451934 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_dup_c3a354" type="mesh" friction="0.6 0.005 0.0001" material="mat_obj_dropped_dup_c3a354" mesh="dropped_thangtt___rong_roc_648196" />
+      <site name="label_dropped_dup_c3a354" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_11e5c1" pos="-2.8355430383641016 -4.93116236803461 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_dup_11e5c1" type="mesh" friction="0.6 0.005 0.0001" material="mat_obj_dropped_dup_11e5c1" mesh="dropped_thangtt___rong_roc_648196" />
+      <site name="label_dropped_dup_11e5c1" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+    <body name="dropped_dup_7e15d5" pos="-1.2283095539752982 -4.96426668859895 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_dup_7e15d5" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_7e15d5" mesh="dropped_thangtt___rong_roc_648196" />
+      <site name="label_dropped_dup_7e15d5" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body>
+  <body name="dropped_dup_3057d8" pos="-3.0096530440461726 -6.012140590257449 0.0" euler="0.0 0.0 0.0">
+      <geom name="geom_dropped_dup_3057d8" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_3057d8" mesh="dropped_dup_3057d8" />
+      <site name="label_dropped_dup_3057d8" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_dup_0a24ed" pos="4.052351043847681 -6.015887116509857 0.0" euler="0.0 0.0 0.0">
+      <geom name="geom_dropped_dup_0a24ed" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_dup_0a24ed" mesh="dropped_dup_0a24ed" />
+      <site name="label_dropped_dup_0a24ed" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_dup_7c00a6" pos="0.6760539952407285 -2.842875921130437 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_dup_7c00a6" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Ergonomic_Fabric_Gaming_Chair" mesh="dropped_dup_7c00a6" />
+      <site name="label_dropped_dup_7c00a6" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_dup_b1a827" pos="3.587183303841362 6.511724201740067 0.0" euler="0.0 0.0 -1.0471975511965976">
+      <geom name="geom_dropped_dup_b1a827" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Ergonomic_Fabric_Gaming_Chair" mesh="dropped_dup_b1a827" />
+      <site name="label_dropped_dup_b1a827" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_Azure_Velvet_Square_Throw_Pillow" pos="-0.0287 -4.9589 0.0" euler="0.0 0.0 0.0"><geom type="mesh" name="geom_dropped_Azure_Velvet_Square_Throw_Pillow" mesh="dropped_Azure_Velvet_Square_Throw_Pillow" material="mat_obj_dropped_Azure_Velvet_Square_Throw_Pillow" friction="0.45 0.005 0.0001" /></body><body name="dropped_Mid-Century_Modern_Low-Back_Dining_Chair" pos="1.5921741531563063 -1.697409309715876 0"><geom type="mesh" name="geom_dropped_Mid-Century_Modern_Low-Back_Dining_Chair" mesh="dropped_Mid-Century_Modern_Low-Back_Dining_Chair" material="mat_obj_dropped_Mid_Century_Modern_Low_Back_Dining_Chair" friction="0.5 0.005 0.0001" /></body><body name="dropped_Blue_Multi-Compartment_Storage_Tray" pos="-8.7643 -6.8616 0.0" euler="0.0 0.0 0.0"><geom type="mesh" name="geom_dropped_Blue_Multi-Compartment_Storage_Tray" mesh="dropped_Blue_Multi-Compartment_Storage_Tray" material="mat_obj_dropped_Blue_Multi_Compartment_Storage_Tray" friction="0.4 0.005 0.0001" /></body><body name="dropped_thangtt___coc_414dec" pos="-0.1607 -3.8331 0.0" euler="0.0 0.0 0.8726646259971648"><geom type="mesh" name="geom_dropped_thangtt___coc_414dec" mesh="dropped_thangtt___coc_414dec" material="mat_obj_dropped_thangtt___coc_414dec" friction="0.5 0.005 0.0001" /></body><body name="dropped_dup_aa9938" pos="9.039347528209152 -5.16315796732555 0.0" euler="0.0 0.0 0.8726646259971648"><geom type="mesh" name="geom_dropped_dup_aa9938" mesh="dropped_dup_aa9938" material="mat_obj_dropped_thangtt___coc_414dec" friction="0.5 0.005 0.0001" /></body><body name="dropped_dup_eddc31" pos="-4.185056429686129 -6.966442027960517 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_dup_eddc31" type="mesh" friction="0.55 0.005 0.0001" material="mat_obj_dropped_Rugged_Industrial_Storage_Case" mesh="dropped_dup_eddc31" />
+      <site name="label_dropped_dup_eddc31" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_dup_10e3ff" pos="-3.328515826563158 -6.966601981625268 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_dup_10e3ff" type="mesh" friction="0.55 0.005 0.0001" material="mat_obj_dropped_Rugged_Industrial_Storage_Case" mesh="dropped_dup_10e3ff" />
+      <site name="label_dropped_dup_10e3ff" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_dup_f9d9bb" pos="-2.4082655821269863 -6.952358484125211 0.0" euler="0.0 0.0 1.5707963267948966">
+      <geom name="geom_dropped_dup_f9d9bb" type="mesh" friction="0.55 0.005 0.0001" material="mat_obj_dropped_Rugged_Industrial_Storage_Case" mesh="dropped_dup_f9d9bb" />
+      <site name="label_dropped_dup_f9d9bb" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_dup_ca8117" pos="13.846773388916297 -13.528780230747188 0.0" euler="0.0 0.0 3.141592653589793">
+      <geom name="geom_dropped_dup_ca8117" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Minimalist_Computer_Desk_with_Monitor" mesh="dropped_dup_ca8117" />
+      <site name="label_dropped_dup_ca8117" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_dup_8e4f43" pos="15.118832046258191 14.427237166732754 0.0" euler="0.0 0.0 4.71238898038469">
+      <geom name="geom_dropped_dup_8e4f43" type="mesh" friction="0.5 0.005 0.0001" material="mat_obj_dropped_Minimalist_Computer_Desk_with_Monitor" mesh="dropped_dup_8e4f43" />
+      <site name="label_dropped_dup_8e4f43" pos="0 0 0" size="0.02" rgba="1 0 0 0.5" />
+    </body><body name="dropped_dup_391fc1" pos="5.811245972223017 -1.5977651231970305 0.0" euler="0.0 0.0 3.141592653589793"><geom type="mesh" name="geom_dropped_dup_391fc1" mesh="dropped_dup_391fc1" material="mat_obj_dropped_Mid_Century_Modern_Low_Back_Dining_Chair" friction="0.5 0.005 0.0001" /></body></worldbody></mujoco>

@@ -1,0 +1,3180 @@
+{
+  "version": "1.1",
+  "scene_plan": {
+    "room": {
+      "depth": 15.0,
+      "width": 20.0,
+      "height": 3.0
+    },
+    "objects": []
+  },
+  "dropped_objects": [
+    {
+      "id": "dropped_Minimalist_Computer_Desk_with_Monitor",
+      "mass": 38.0,
+      "size": [
+        1.0702,
+        0.8432,
+        1.2
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "label": "Minimalist Computer Desk with Monitor",
+      "stl_url": "assets/file",
+      "material": "wood",
+      "position": [
+        -8.309656112120877,
+        -5.82543819980409,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "stl_path": "assets/uv_00b271fd1d1842bc8f2f5a290443f06e.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        1.0702000000000007,
+        0.8431999999999995,
+        1.2
+      ],
+      "stl_bbox_max": [
+        8.534578446333967,
+        -12.377741085866079,
+        1.2
+      ],
+      "stl_bbox_min": [
+        7.464378446333966,
+        -13.220941085866079,
+        0
+      ]
+    },
+    {
+      "id": "dropped_thangtt___luoi_b4e7d2",
+      "mass": 5.0,
+      "size": [
+        6.5,
+        0.05,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.85,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___luoi_b4e7d2",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -6.488333913007821,
+        -2.7022716006190044,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___luoi_b4e7d2.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        10000.0,
+        100.0,
+        3000.0
+      ],
+      "stl_bbox_max": [
+        5000,
+        50,
+        3000
+      ],
+      "stl_bbox_min": [
+        -5000,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Portable_Handheld_Sewing_Machine",
+      "mass": 50.0,
+      "size": [
+        0.4,
+        0.3,
+        0.4
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.55,
+        0.55,
+        0.6
+      ],
+      "label": "Portable Handheld Sewing Machine",
+      "stl_url": "assets/file",
+      "material": "plastic",
+      "position": [
+        -3.613834311591371,
+        6.877495973885467,
+        0.762
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "stl_path": "assets/lvis_5370268604124a97.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.21,
+        0.084,
+        0.2
+      ],
+      "stl_bbox_max": [
+        0.1686865341863277,
+        0.04183280055683367,
+        0.2
+      ],
+      "stl_bbox_min": [
+        -0.04131346581367228,
+        -0.04216719944316633,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_5d30f2",
+      "mass": 96.36363636363636,
+      "size": [
+        1.981625,
+        1.000329,
+        0.761748
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.6,
+        0.63,
+        0.68
+      ],
+      "label": "Trestle Wood Dining Table",
+      "stl_url": "assets/file",
+      "friction": [
+        0.6,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -7.290476456191136,
+        -4.275330823620211,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.7,
+      "stl_path": "assets/abo_B075YMW6VR.stl",
+      "shininess": 0.7,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.4,
+      "_stl_extents": [
+        1.9816245436668396,
+        1.0003288686275482,
+        0.7617482542991638
+      ],
+      "stl_bbox_max": [
+        0.9858388304710388,
+        0.4894910752773285,
+        0.7617482542991638
+      ],
+      "stl_bbox_min": [
+        -0.9957857131958008,
+        -0.5108377933502197,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_94e565",
+      "mass": 96.36363636363636,
+      "size": [
+        1.981625,
+        1.000329,
+        0.761748
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.6,
+        0.63,
+        0.68
+      ],
+      "label": "Trestle Wood Dining Table",
+      "stl_url": "assets/file",
+      "friction": [
+        0.6,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -7.287554830558561,
+        -2.2818691743639428,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.7,
+      "stl_path": "assets/abo_B075YMW6VR.stl",
+      "shininess": 0.7,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.4,
+      "_stl_extents": [
+        1.9816245436668396,
+        1.0003288686275482,
+        0.7617482542991638
+      ],
+      "stl_bbox_max": [
+        0.9858388304710388,
+        0.4894910752773285,
+        0.7617482542991638
+      ],
+      "stl_bbox_min": [
+        -0.9957857131958008,
+        -0.5108377933502197,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_cf2f54",
+      "mass": 96.36363636363636,
+      "size": [
+        1.981625,
+        1.000329,
+        0.761748
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.6,
+        0.63,
+        0.68
+      ],
+      "label": "Trestle Wood Dining Table",
+      "stl_url": "assets/file",
+      "friction": [
+        0.6,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -7.287626776323885,
+        -0.29267833591992365,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.7,
+      "stl_path": "assets/abo_B075YMW6VR.stl",
+      "shininess": 0.7,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.4,
+      "_stl_extents": [
+        1.9816245436668396,
+        1.0003288686275482,
+        0.7617482542991638
+      ],
+      "stl_bbox_max": [
+        0.9858388304710388,
+        0.4894910752773285,
+        0.7617482542991638
+      ],
+      "stl_bbox_min": [
+        -0.9957857131958008,
+        -0.5108377933502197,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Ergonomic_Fabric_Gaming_Chair",
+      "mass": 18.839502389090907,
+      "size": [
+        0.7339,
+        0.7339,
+        1.3
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "label": "Ergonomic Fabric Gaming Chair",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -8.189177940303404,
+        -4.095238334761921,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/abo_B07DC168ZT.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.7339,
+        0.7339,
+        1.3
+      ],
+      "stl_bbox_max": [
+        0.37150298065662224,
+        0.38531647155168613,
+        1.3
+      ],
+      "stl_bbox_min": [
+        -0.36239701934337776,
+        -0.3485835284483139,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Modern_Ladderback_Dining_Chair",
+      "mass": 15.909090909090908,
+      "size": [
+        0.592991,
+        0.594755,
+        0.978907
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.55,
+        0.38,
+        0.18
+      ],
+      "label": "Modern Ladderback Dining Chair",
+      "stl_url": "assets/file",
+      "material": "mixed",
+      "position": [
+        -8.158788245628068,
+        -3.026716421816583,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "stl_path": "assets/abo_B075YMW6W9.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.5929906368255615,
+        0.5947550535202026,
+        0.9789072275161743
+      ],
+      "stl_bbox_max": [
+        0.29649531841278076,
+        0.30956321954727173,
+        0.9789072275161743
+      ],
+      "stl_bbox_min": [
+        -0.29649531841278076,
+        -0.2851918339729309,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_1105e7",
+      "mass": 15.909090909090908,
+      "size": [
+        0.592991,
+        0.594755,
+        0.978907
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.55,
+        0.38,
+        0.18
+      ],
+      "label": "Modern Ladderback Dining Chair",
+      "stl_url": "assets/file",
+      "material": "mixed",
+      "position": [
+        -8.118627678568004,
+        -0.32616027419153104,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "stl_path": "assets/abo_B075YMW6W9.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.5929906368255615,
+        0.5947550535202026,
+        0.9789072275161743
+      ],
+      "stl_bbox_max": [
+        0.29649531841278076,
+        0.30956321954727173,
+        0.9789072275161743
+      ],
+      "stl_bbox_min": [
+        -0.29649531841278076,
+        -0.2851918339729309,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_76a654",
+      "mass": 15.909090909090908,
+      "size": [
+        0.592991,
+        0.594755,
+        0.978907
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.55,
+        0.38,
+        0.18
+      ],
+      "label": "Modern Ladderback Dining Chair",
+      "stl_url": "assets/file",
+      "material": "mixed",
+      "position": [
+        -8.160926892719624,
+        -1.813310881954234,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "stl_path": "assets/abo_B075YMW6W9.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.5929906368255615,
+        0.5947550535202026,
+        0.9789072275161743
+      ],
+      "stl_bbox_max": [
+        0.29649531841278076,
+        0.30956321954727173,
+        0.9789072275161743
+      ],
+      "stl_bbox_min": [
+        -0.29649531841278076,
+        -0.2851918339729309,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Blue_Platform_Utility_Trolley",
+      "mass": 18.0,
+      "size": [
+        0.660708,
+        1.114941,
+        1.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.94,
+        0.78,
+        0.32
+      ],
+      "label": "Blue Platform Utility Trolley",
+      "stl_url": "assets/file",
+      "friction": [
+        0.49,
+        0.005,
+        0.0001
+      ],
+      "material": "gold",
+      "position": [
+        1.8855584119922257,
+        3.517197011966288,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.9,
+      "stl_path": "assets/uv_7194695c69654bf79ae054082e4e7b8a.stl",
+      "shininess": 0.9,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.6,
+      "_stl_extents": [
+        0.6607083976268768,
+        1.114940881729126,
+        0.9999996423721313
+      ],
+      "stl_bbox_max": [
+        0.3303541839122772,
+        0.557470440864563,
+        0.9999996423721313
+      ],
+      "stl_bbox_min": [
+        -0.3303542137145996,
+        -0.557470440864563,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Open_Blue_Cardboard_Box",
+      "mass": 0.7,
+      "size": [
+        0.677419,
+        0.72258,
+        0.35
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.78,
+        0.62,
+        0.38
+      ],
+      "label": "Open Blue Cardboard Box",
+      "stl_url": "assets/file",
+      "friction": [
+        0.45,
+        0.005,
+        0.0001
+      ],
+      "material": "pine",
+      "position": [
+        -5.706655761700306,
+        -4.657468135445057,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.2,
+      "stl_path": "assets/uv_390e8201432a4ef3813316953cacee95.stl",
+      "shininess": 0.15,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.02,
+      "_stl_extents": [
+        0.6774188876152039,
+        0.7225801646709442,
+        0.3500001132488251
+      ],
+      "stl_bbox_max": [
+        0.33870944380760193,
+        0.361289918422699,
+        0.3500001132488251
+      ],
+      "stl_bbox_min": [
+        -0.33870944380760193,
+        -0.36129024624824524,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Rugged_Industrial_Storage_Case",
+      "mass": 18.0,
+      "size": [
+        0.8,
+        0.8,
+        1.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "label": "Rugged Industrial Storage Case",
+      "stl_url": "assets/file",
+      "material": "metal",
+      "position": [
+        -2.5436055420103605,
+        -1.8810526701965977,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stl_path": "assets/uv_320d935472354cc79590bc35ade9d855.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.9120362997055054,
+        0.39036983251571655,
+        0.37999993562698364
+      ],
+      "stl_bbox_max": [
+        0.4560181498527527,
+        0.19518491625785828,
+        0.37999993562698364
+      ],
+      "stl_bbox_min": [
+        -0.4560181498527527,
+        -0.19518491625785828,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Industrial_Angular_Sewing_Machine",
+      "mass": 12.0,
+      "size": [
+        0.628296,
+        0.206198,
+        0.35
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.1,
+        0.1,
+        0.1
+      ],
+      "label": "Industrial Angular Sewing Machine",
+      "stl_url": "assets/file",
+      "material": "metal",
+      "position": [
+        -2.9299957867163458,
+        6.84144494158344,
+        0.762
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -90.0
+      ],
+      "stl_path": "assets/uv_1e46878101394d4598dac171399686a5.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.6282959580421448,
+        0.20619750022888184,
+        0.34999996423721313
+      ],
+      "stl_bbox_max": [
+        0.3141479790210724,
+        0.10309876501560211,
+        0.34999996423721313
+      ],
+      "stl_bbox_min": [
+        -0.3141479790210724,
+        -0.10309873521327972,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Industrial_Vending_Machine",
+      "mass": 120.0,
+      "size": [
+        1.202952,
+        0.966983,
+        1.6
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.9,
+        0.5,
+        0.1
+      ],
+      "label": "Industrial Vending Machine",
+      "stl_url": "assets/file",
+      "material": "metal",
+      "position": [
+        -7.920432442687561,
+        6.96363392197359,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "stl_path": "assets/uv_0bc70e765e214e5f9fe926a10c03153b.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        1.2029522061347961,
+        0.9669830799102783,
+        1.5999999046325684
+      ],
+      "stl_bbox_max": [
+        0.6014761328697205,
+        0.4834916293621063,
+        1.5999999046325684
+      ],
+      "stl_bbox_min": [
+        -0.6014760732650757,
+        -0.483491450548172,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Modern_Quilted_Bar_Stool",
+      "mass": 8.5,
+      "size": [
+        0.45984,
+        0.530196,
+        1.05
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.0,
+        0.196,
+        0.0
+      ],
+      "label": "Modern Quilted Bar Stool",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -5.639170534544752,
+        3.5283679900618194,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/uv_015951355152476aa84b7514ced18591.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.45984047651290894,
+        0.5301964282989502,
+        1.049999713897705
+      ],
+      "stl_bbox_max": [
+        0.22992023825645447,
+        0.2650982141494751,
+        1.049999713897705
+      ],
+      "stl_bbox_min": [
+        -0.22992023825645447,
+        -0.2650982141494751,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Blue_Rectangular_Vending_Machine",
+      "mass": 50.0,
+      "size": [
+        1.23,
+        1.0,
+        1.9
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.784,
+        0.784,
+        0.784
+      ],
+      "label": "Blue Rectangular Vending Machine",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -0.8360364183983879,
+        7.321767530590085,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        12.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/lvis_71bc97b4714e4341.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        1.2297000000000002,
+        0.9374,
+        1.9
+      ],
+      "stl_bbox_max": [
+        -0.7453765571440066,
+        0.3231980232043834,
+        1.9
+      ],
+      "stl_bbox_min": [
+        -1.9750765571440068,
+        -0.6142019767956166,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Blue_Double_Lid_Chest_Freezer",
+      "mass": 15.0,
+      "size": [
+        1.0,
+        1.0,
+        2.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.784,
+        0.784,
+        0.784
+      ],
+      "label": "Blue Double Lid Chest Freezer",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -1.0373686891179257,
+        6.949785671705613,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/lvis_9566a7ad9cd144f9.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.485,
+        0.473,
+        0.9
+      ],
+      "stl_bbox_max": [
+        0.2425,
+        0.1918854236726114,
+        0.9
+      ],
+      "stl_bbox_min": [
+        -0.2425,
+        -0.28111457632738857,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Compact_Blue_Desktop_Printer",
+      "mass": 15.0,
+      "size": [
+        0.4,
+        0.28,
+        0.473
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.55,
+        0.55,
+        0.6
+      ],
+      "label": "Compact Blue Desktop Printer",
+      "stl_url": "assets/file",
+      "material": "plastic",
+      "position": [
+        -5.5493970710396985,
+        5.512188224755905,
+        0.8
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stl_path": "assets/lvis_c22dd018d6d148d0.stl",
+      "_stl_z_min": -2.4419046995101706e-17,
+      "_stl_extents": [
+        0.4,
+        0.28,
+        0.473
+      ],
+      "stl_bbox_max": [
+        0.2,
+        0.16994815758717935,
+        0.473
+      ],
+      "stl_bbox_min": [
+        -0.2,
+        -0.11005184241282068,
+        -2.4419046995101706e-17
+      ]
+    },
+    {
+      "id": "dropped_Lying_Human_Figure",
+      "mass": 10.0,
+      "size": [
+        0.8,
+        0.4,
+        1.6
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.71,
+        0.71,
+        0.71
+      ],
+      "label": "Lying Human Figure",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        1.1006,
+        -3.967,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/obj_0e1209d1_400b_45aa_8e7d_7445d18892b8_eafc571418d1.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        1.0629340410232544,
+        0.520038366317749,
+        1.853844404220581
+      ],
+      "stl_bbox_max": [
+        0.5314633846282959,
+        0.26596084237098694,
+        1.853844404220581
+      ],
+      "stl_bbox_min": [
+        -0.5314706563949585,
+        -0.2540775239467621,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Open_Blue_Book",
+      "mass": 15.0,
+      "size": [
+        0.3,
+        0.1856,
+        0.0365
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.95,
+        0.95,
+        0.93
+      ],
+      "label": "Open Blue Book",
+      "stl_url": "assets/file",
+      "friction": [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      "material": "paper",
+      "position": [
+        -7.4340200916369135,
+        -4.205756537546039,
+        0.768
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.1,
+      "stl_path": "assets/lvis_0c5f6748af964d12.stl",
+      "shininess": 0.1,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.30000000000000004,
+        0.1856,
+        0.0365
+      ],
+      "stl_bbox_max": [
+        0.15020599683519828,
+        0.09279999701737428,
+        0.0365
+      ],
+      "stl_bbox_min": [
+        -0.14979400316480174,
+        -0.09280000298262572,
+        0
+      ]
+    },
+    {
+      "id": "dropped_thangtt___ban_l_fd12fb",
+      "mass": 5.0,
+      "size": [
+        6.0,
+        2.0,
+        0.8
+      ],
+      "type": "mesh",
+      "alpha": 0.95,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___ban_l_fd12fb",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -3.434,
+        5.0122,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___ban_l_fd12fb.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        3000.0,
+        1000.0,
+        900.0
+      ],
+      "stl_bbox_max": [
+        1500,
+        500,
+        900
+      ],
+      "stl_bbox_min": [
+        -1500,
+        -500,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_7be506",
+      "mass": 8.5,
+      "size": [
+        0.45984,
+        0.530196,
+        1.05
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.0,
+        0.196,
+        0.0
+      ],
+      "label": "Modern Quilted Bar Stool",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -4.497116994811423,
+        3.5566114390210046,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/uv_015951355152476aa84b7514ced18591.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.45984047651290894,
+        0.5301964282989502,
+        1.049999713897705
+      ],
+      "stl_bbox_max": [
+        0.22992023825645447,
+        0.2650982141494751,
+        1.049999713897705
+      ],
+      "stl_bbox_min": [
+        -0.22992023825645447,
+        -0.2650982141494751,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_32c5fc",
+      "mass": 8.5,
+      "size": [
+        0.45984,
+        0.530196,
+        1.05
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.0,
+        0.196,
+        0.0
+      ],
+      "label": "Modern Quilted Bar Stool",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -3.4087066442261253,
+        3.534508163188251,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/uv_015951355152476aa84b7514ced18591.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.45984047651290894,
+        0.5301964282989502,
+        1.049999713897705
+      ],
+      "stl_bbox_max": [
+        0.22992023825645447,
+        0.2650982141494751,
+        1.049999713897705
+      ],
+      "stl_bbox_min": [
+        -0.22992023825645447,
+        -0.2650982141494751,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_ca81a6",
+      "mass": 8.5,
+      "size": [
+        0.45984,
+        0.530196,
+        1.05
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.0,
+        0.196,
+        0.0
+      ],
+      "label": "Modern Quilted Bar Stool",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -2.3073515004432874,
+        3.5383675317138974,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/uv_015951355152476aa84b7514ced18591.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.45984047651290894,
+        0.5301964282989502,
+        1.049999713897705
+      ],
+      "stl_bbox_max": [
+        0.22992023825645447,
+        0.2650982141494751,
+        1.049999713897705
+      ],
+      "stl_bbox_min": [
+        -0.22992023825645447,
+        -0.2650982141494751,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_0886b4",
+      "mass": 8.5,
+      "size": [
+        0.45984,
+        0.530196,
+        1.05
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.0,
+        0.196,
+        0.0
+      ],
+      "label": "Modern Quilted Bar Stool",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -1.2053819613514958,
+        3.5425045995127062,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/uv_015951355152476aa84b7514ced18591.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.45984047651290894,
+        0.5301964282989502,
+        1.049999713897705
+      ],
+      "stl_bbox_max": [
+        0.22992023825645447,
+        0.2650982141494751,
+        1.049999713897705
+      ],
+      "stl_bbox_min": [
+        -0.22992023825645447,
+        -0.2650982141494751,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_4587e6",
+      "mass": 96.36363636363636,
+      "size": [
+        2.0,
+        0.8,
+        0.762
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.6,
+        0.63,
+        0.68
+      ],
+      "label": "Trestle Wood Dining Table",
+      "stl_url": "assets/file",
+      "friction": [
+        0.6,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -3.7758739672332284,
+        6.830569409263487,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.7,
+      "stl_path": "assets/abo_B075YMW6VR.stl",
+      "shininess": 0.7,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.4,
+      "_stl_extents": [
+        1.9816245436668396,
+        1.0003288686275482,
+        0.7617482542991638
+      ],
+      "stl_bbox_max": [
+        0.9858388304710388,
+        0.4894910752773285,
+        0.7617482542991638
+      ],
+      "stl_bbox_min": [
+        -0.9957857131958008,
+        -0.5108377933502197,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_9c084d",
+      "mass": 22.0,
+      "size": [
+        2.0,
+        0.5,
+        2.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.071,
+        0.071,
+        0.235
+      ],
+      "label": "12-compartment grid organizer tray",
+      "stl_url": "assets/file",
+      "friction": [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -9.789122315159036,
+        -4.260375034943318,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.4,
+      "stl_path": "assets/uv_45036250839f4a619afd196d214a1d90.stl",
+      "shininess": 0.4,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.05,
+      "_stl_extents": [
+        0.22550000000000003,
+        0.0499,
+        0.3
+      ],
+      "stl_bbox_max": [
+        0.11275000000000002,
+        1.7349908514374472e-08,
+        0.3
+      ],
+      "stl_bbox_min": [
+        -0.11275000000000002,
+        -0.04989998265009148,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_17510c",
+      "mass": 22.0,
+      "size": [
+        2.0,
+        0.5,
+        2.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.071,
+        0.071,
+        0.235
+      ],
+      "label": "12-compartment grid organizer tray",
+      "stl_url": "assets/file",
+      "friction": [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -9.794296483499359,
+        -0.21575191057507292,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.4,
+      "stl_path": "assets/uv_45036250839f4a619afd196d214a1d90.stl",
+      "shininess": 0.4,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.05,
+      "_stl_extents": [
+        0.22550000000000003,
+        0.0499,
+        0.3
+      ],
+      "stl_bbox_max": [
+        0.11275000000000002,
+        1.7349908514374472e-08,
+        0.3
+      ],
+      "stl_bbox_min": [
+        -0.11275000000000002,
+        -0.04989998265009148,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_015d75",
+      "mass": 22.0,
+      "size": [
+        2.0,
+        0.5,
+        2.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.071,
+        0.071,
+        0.235
+      ],
+      "label": "12-compartment grid organizer tray",
+      "stl_url": "assets/file",
+      "friction": [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -9.793458597914515,
+        -2.240249679490225,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.4,
+      "stl_path": "assets/uv_45036250839f4a619afd196d214a1d90.stl",
+      "shininess": 0.4,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.05,
+      "_stl_extents": [
+        0.22550000000000003,
+        0.0499,
+        0.3
+      ],
+      "stl_bbox_max": [
+        0.11275000000000002,
+        1.7349908514374472e-08,
+        0.3
+      ],
+      "stl_bbox_min": [
+        -0.11275000000000002,
+        -0.04989998265009148,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Compact_Six-Bottle_Spice_Rack",
+      "mass": 0.7,
+      "size": [
+        0.3,
+        0.06,
+        0.143
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.3,
+        0.1
+      ],
+      "label": "Compact Six-Bottle Spice Rack",
+      "stl_url": "assets/file",
+      "material": "wood",
+      "position": [
+        10.398604297493591,
+        6.726605287933312,
+        0.762
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stl_path": "assets/uv_2d2b61df6fa7407b99d9a3a131d87b3d.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.26900000000000013,
+        0.054199999999999984,
+        0.1434
+      ],
+      "stl_bbox_max": [
+        -12.114829462310704,
+        -0.0734007067328442,
+        0.1434
+      ],
+      "stl_bbox_min": [
+        -12.383829462310704,
+        -0.12760070673284418,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Blue_Rectangular_Trash_Bin",
+      "mass": 7.0,
+      "size": [
+        0.4589,
+        0.4589,
+        0.7
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.004,
+        0.259,
+        0.0
+      ],
+      "label": "Blue Rectangular Trash Bin",
+      "stl_url": "assets/file",
+      "friction": [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -7.055283840331878,
+        6.983762638567556,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.4,
+      "stl_path": "assets/uv_4a256b223e414b738bfd85b2e113bf3a.stl",
+      "shininess": 0.4,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.05,
+      "_stl_extents": [
+        0.4589,
+        0.4589,
+        0.7
+      ],
+      "stl_bbox_max": [
+        0.22945,
+        0.22944976347996116,
+        0.7
+      ],
+      "stl_bbox_min": [
+        -0.22945,
+        -0.2294502365200388,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Blue_Wooden_Storage_Shelf",
+      "mass": 18.0,
+      "size": [
+        0.724,
+        0.207,
+        0.5
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.66,
+        0.66,
+        0.69
+      ],
+      "label": "Blue Wooden Storage Shelf",
+      "stl_url": "assets/file",
+      "friction": [
+        0.55,
+        0.005,
+        0.0001
+      ],
+      "material": "titanium",
+      "position": [
+        -4.193597016772756,
+        7.028172098482014,
+        0.762
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "specular": 0.6,
+      "stl_path": "assets/uv_3f94a21284954eb5897cf608d1a617f6.stl",
+      "shininess": 0.6,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.3,
+      "_stl_extents": [
+        0.7241469621658325,
+        0.20689918100833893,
+        0.9999996423721313
+      ],
+      "stl_bbox_max": [
+        0.36207348108291626,
+        0.10344959050416946,
+        0.9999996423721313
+      ],
+      "stl_bbox_min": [
+        -0.36207348108291626,
+        -0.10344959050416946,
+        0
+      ]
+    },
+    {
+      "id": "dropped_thangtt___tam_chan_8e978d",
+      "mass": 5.0,
+      "size": [
+        6.0,
+        0.05,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.9,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___tam_chan_8e978d",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        2.529988327551518,
+        -2.908311254821819,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___tam_chan_8e978d.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        6000.0,
+        100.0,
+        3000.0
+      ],
+      "stl_bbox_max": [
+        3000,
+        50,
+        3000
+      ],
+      "stl_bbox_min": [
+        -3000,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_60c113",
+      "mass": 5.0,
+      "size": [
+        2.0,
+        0.05,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.9,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___tam_chan_8e978d",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        5.644119428587583,
+        0.010840515707549625,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___tam_chan_8e978d.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        6000.0,
+        100.0,
+        3000.0
+      ],
+      "stl_bbox_max": [
+        3000,
+        50,
+        3000
+      ],
+      "stl_bbox_min": [
+        -3000,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_e3a84e",
+      "mass": 5.0,
+      "size": [
+        4.0,
+        0.05,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.9,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___tam_chan_8e978d",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        6.70047034517553,
+        -1.9737671903543792,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___tam_chan_8e978d.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        6000.0,
+        100.0,
+        3000.0
+      ],
+      "stl_bbox_max": [
+        3000,
+        50,
+        3000
+      ],
+      "stl_bbox_min": [
+        -3000,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_thangtt___tuong_7ec81a",
+      "mass": 5.0,
+      "size": [
+        2.0,
+        0.2,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.75,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___tuong_7ec81a",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        2.7150597614056386,
+        4.112971517314015,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___tuong_7ec81a.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        3000.0,
+        100.0,
+        2500.0
+      ],
+      "stl_bbox_max": [
+        1500,
+        50,
+        2500
+      ],
+      "stl_bbox_min": [
+        -1500,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_thangtt___tuong_56ac02",
+      "mass": 5.0,
+      "size": [
+        3.0,
+        0.2,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.9,
+        0.9,
+        0.92
+      ],
+      "label": "thangtt___tuong_56ac02",
+      "stl_url": "assets/file",
+      "friction": [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        1.6103032957546242,
+        5.509337059335151,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.4,
+      "stl_path": "assets/thangtt___tuong_56ac02.stl",
+      "shininess": 0.4,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.05,
+      "_stl_extents": [
+        3000.0,
+        150.0,
+        2500.0
+      ],
+      "stl_bbox_max": [
+        1500,
+        75,
+        2500
+      ],
+      "stl_bbox_min": [
+        -1500,
+        -75,
+        0
+      ]
+    },
+    {
+      "id": "dropped_thangtt___cua_76dfbb",
+      "mass": 5.0,
+      "size": [
+        0.9,
+        0.1,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.61,
+      "color": [
+        0.882,
+        0.882,
+        0.976
+      ],
+      "label": "thangtt___cua_76dfbb",
+      "stl_url": "assets/file",
+      "friction": [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        4.424236335957621,
+        4.408975593387286,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        120.0
+      ],
+      "specular": 0.4,
+      "stl_path": "assets/thangtt___cua_76dfbb.stl",
+      "shininess": 0.4,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.05,
+      "_stl_extents": [
+        900.0,
+        113.0,
+        2100.0
+      ],
+      "stl_bbox_max": [
+        450,
+        90,
+        2100
+      ],
+      "stl_bbox_min": [
+        -450,
+        -23,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_b21f1d",
+      "mass": 5.0,
+      "size": [
+        2.0,
+        0.2,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.75,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___tuong_7ec81a",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        5.672546830776642,
+        4.087723002919368,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___tuong_7ec81a.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        3000.0,
+        100.0,
+        2500.0
+      ],
+      "stl_bbox_max": [
+        1500,
+        50,
+        2500
+      ],
+      "stl_bbox_min": [
+        -1500,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_5024be",
+      "mass": 5.0,
+      "size": [
+        3.0,
+        0.2,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.9,
+        0.9,
+        0.92
+      ],
+      "label": "thangtt___tuong_56ac02",
+      "stl_url": "assets/file",
+      "friction": [
+        0.4,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        6.789486826459618,
+        5.482615390821273,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.4,
+      "stl_path": "assets/thangtt___tuong_56ac02.stl",
+      "shininess": 0.4,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.05,
+      "_stl_extents": [
+        3000.0,
+        150.0,
+        2500.0
+      ],
+      "stl_bbox_max": [
+        1500,
+        75,
+        2500
+      ],
+      "stl_bbox_min": [
+        -1500,
+        -75,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_c6a90a",
+      "mass": 5.0,
+      "size": [
+        2.0,
+        0.05,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.95,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___tam_chan_8e978d",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        8.019002060244325,
+        4.988509797001591,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___tam_chan_8e978d.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        6000.0,
+        100.0,
+        3000.0
+      ],
+      "stl_bbox_max": [
+        3000,
+        50,
+        3000
+      ],
+      "stl_bbox_min": [
+        -3000,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_thangtt___rong_roc_648196",
+      "mass": 5.0,
+      "size": [
+        1.5,
+        1.0,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "label": "thangtt___rong_roc_648196",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -5.8921,
+        -0.2202,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___rong_roc_648196.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        1749.1109619140625,
+        1000.0,
+        2925.582763671875
+      ],
+      "stl_bbox_max": [
+        1249.1109619140625,
+        500,
+        2925.582763671875
+      ],
+      "stl_bbox_min": [
+        -500,
+        -500,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_c3a354",
+      "mass": 5.0,
+      "size": [
+        1.5,
+        1.0,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.149,
+        0.149,
+        0.149
+      ],
+      "label": "thangtt___rong_roc_648196",
+      "stl_url": "assets/file",
+      "friction": [
+        0.6,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -4.479408929671479,
+        -4.9017563708451934,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.7,
+      "stl_path": "assets/thangtt___rong_roc_648196.stl",
+      "shininess": 0.7,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.4,
+      "_stl_extents": [
+        1749.1109619140625,
+        1000.0,
+        2925.582763671875
+      ],
+      "stl_bbox_max": [
+        1249.1109619140625,
+        500,
+        2925.582763671875
+      ],
+      "stl_bbox_min": [
+        -500,
+        -500,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_11e5c1",
+      "mass": 5.0,
+      "size": [
+        1.5,
+        1.0,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.129,
+        0.129,
+        0.129
+      ],
+      "label": "thangtt___rong_roc_648196",
+      "stl_url": "assets/file",
+      "friction": [
+        0.6,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -2.8355430383641016,
+        -4.93116236803461,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.7,
+      "stl_path": "assets/thangtt___rong_roc_648196.stl",
+      "shininess": 0.7,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.4,
+      "_stl_extents": [
+        1749.1109619140625,
+        1000.0,
+        2925.582763671875
+      ],
+      "stl_bbox_max": [
+        1249.1109619140625,
+        500,
+        2925.582763671875
+      ],
+      "stl_bbox_min": [
+        -500,
+        -500,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_7e15d5",
+      "mass": 5.0,
+      "size": [
+        1.5,
+        1.0,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.161,
+        0.161,
+        0.161
+      ],
+      "label": "thangtt___rong_roc_648196",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        -1.2283095539752982,
+        -4.96426668859895,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___rong_roc_648196.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        1749.1109619140625,
+        1000.0,
+        2925.582763671875
+      ],
+      "stl_bbox_max": [
+        1249.1109619140625,
+        500,
+        2925.582763671875
+      ],
+      "stl_bbox_min": [
+        -500,
+        -500,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_3057d8",
+      "mass": 5.0,
+      "size": [
+        7.0,
+        0.05,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.85,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___luoi_b4e7d2",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -3.0096530440461726,
+        -6.012140590257449,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___luoi_b4e7d2.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        10000.0,
+        100.0,
+        3000.0
+      ],
+      "stl_bbox_max": [
+        5000,
+        50,
+        3000
+      ],
+      "stl_bbox_min": [
+        -5000,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_0a24ed",
+      "mass": 5.0,
+      "size": [
+        7.0,
+        0.05,
+        2.5
+      ],
+      "type": "mesh",
+      "alpha": 0.85,
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "label": "thangtt___luoi_b4e7d2",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        4.052351043847681,
+        -6.015887116509857,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___luoi_b4e7d2.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        10000.0,
+        100.0,
+        3000.0
+      ],
+      "stl_bbox_max": [
+        5000,
+        50,
+        3000
+      ],
+      "stl_bbox_min": [
+        -5000,
+        -50,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_7c00a6",
+      "mass": 18.839502389090907,
+      "size": [
+        0.7339,
+        0.7339,
+        1.3
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "label": "Ergonomic Fabric Gaming Chair",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        0.6760539952407285,
+        -2.842875921130437,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/abo_B07DC168ZT.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.7339,
+        0.7339,
+        1.3
+      ],
+      "stl_bbox_max": [
+        0.37150298065662224,
+        0.38531647155168613,
+        1.3
+      ],
+      "stl_bbox_min": [
+        -0.36239701934337776,
+        -0.3485835284483139,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_b1a827",
+      "mass": 18.839502389090907,
+      "size": [
+        0.7339,
+        0.7339,
+        1.3
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.22,
+        0.22,
+        0.22
+      ],
+      "label": "Ergonomic Fabric Gaming Chair",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "steel",
+      "position": [
+        3.587183303841362,
+        6.511724201740067,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        -60.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/abo_B07DC168ZT.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        0.7339,
+        0.7339,
+        1.3
+      ],
+      "stl_bbox_max": [
+        0.37150298065662224,
+        0.38531647155168613,
+        1.3
+      ],
+      "stl_bbox_min": [
+        -0.36239701934337776,
+        -0.3485835284483139,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Azure_Velvet_Square_Throw_Pillow",
+      "mass": 1.0,
+      "size": [
+        1.0,
+        1.0,
+        0.3
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.8,
+        0.72,
+        0.45
+      ],
+      "label": "Azure Velvet Square Throw Pillow",
+      "stl_url": "assets/file",
+      "friction": [
+        0.45,
+        0.005,
+        0.0001
+      ],
+      "material": "bamboo",
+      "position": [
+        -0.0287,
+        -4.9589,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "specular": 0.3,
+      "stl_path": "assets/abo_B074VLRNLC.stl",
+      "shininess": 0.25,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.03,
+      "_stl_extents": [
+        0.43673399090766907,
+        0.4199528396129608,
+        0.17677199840545654
+      ],
+      "stl_bbox_max": [
+        0.21836699545383453,
+        0.2099764198064804,
+        0.17677199840545654
+      ],
+      "stl_bbox_min": [
+        -0.21836699545383453,
+        -0.2099764198064804,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Mid-Century_Modern_Low-Back_Dining_Chair",
+      "mass": 3.0,
+      "size": [
+        0.495612,
+        0.499288,
+        0.800816
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.78,
+        0.8,
+        0.83
+      ],
+      "label": "Mid-Century Modern Low-Back Dining Chair",
+      "stl_url": "assets/file",
+      "friction": [
+        0.45,
+        0.005,
+        0.0001
+      ],
+      "material": "aluminum",
+      "position": [
+        1.5921741531563063,
+        -1.697409309715876,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "specular": 0.7,
+      "stl_path": "assets/abo_B075YMXWZM.stl",
+      "shininess": 0.6,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.4,
+      "_stl_extents": [
+        0.4956119954586029,
+        0.49928802251815796,
+        0.8008161187171936
+      ],
+      "stl_bbox_max": [
+        0.24780599772930145,
+        0.24964401125907898,
+        0.8008161187171936
+      ],
+      "stl_bbox_min": [
+        -0.24780599772930145,
+        -0.24964401125907898,
+        0
+      ]
+    },
+    {
+      "id": "dropped_Blue_Multi-Compartment_Storage_Tray",
+      "mass": 38.0,
+      "size": [
+        2.0,
+        0.4,
+        1.5
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.3,
+        0.1
+      ],
+      "label": "Blue Multi-Compartment Storage Tray",
+      "stl_url": "assets/file",
+      "material": "plastic",
+      "position": [
+        -8.7643,
+        -6.8616,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "stl_path": "assets/uv_4525d20aa1224624b738b6aa3a390a03.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.4,
+        0.09670000000000001,
+        0.353
+      ],
+      "stl_bbox_max": [
+        0.2,
+        0.0018054599886075514,
+        0.353
+      ],
+      "stl_bbox_min": [
+        -0.2,
+        -0.09489454001139246,
+        0
+      ]
+    },
+    {
+      "id": "dropped_thangtt___coc_414dec",
+      "mass": 5.0,
+      "size": [
+        0.15,
+        0.1,
+        0.15
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.847,
+        1.0,
+        0.42
+      ],
+      "label": "thangtt___coc_414dec",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        -0.1607,
+        -3.8331,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        50.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___coc_414dec.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        108.09262084960938,
+        79.97513580322266,
+        100.0
+      ],
+      "stl_bbox_max": [
+        68.09262084960938,
+        39.98756790161133,
+        100
+      ],
+      "stl_bbox_min": [
+        -40,
+        -39.98756790161133,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_aa9938",
+      "mass": 5.0,
+      "size": [
+        0.15,
+        0.1,
+        0.15
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.847,
+        1.0,
+        0.42
+      ],
+      "label": "thangtt___coc_414dec",
+      "stl_url": "assets/file",
+      "friction": [
+        0.5,
+        0.005,
+        0.0001
+      ],
+      "material": "plastic",
+      "position": [
+        9.039347528209152,
+        -5.16315796732555,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        50.0
+      ],
+      "specular": 0.5,
+      "stl_path": "assets/thangtt___coc_414dec.stl",
+      "shininess": 0.5,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.0,
+      "_stl_extents": [
+        108.09262084960938,
+        79.97513580322266,
+        100.0
+      ],
+      "stl_bbox_max": [
+        68.09262084960938,
+        39.98756790161133,
+        100
+      ],
+      "stl_bbox_min": [
+        -40,
+        -39.98756790161133,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_eddc31",
+      "mass": 18.0,
+      "size": [
+        0.8,
+        0.8,
+        1.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "label": "Rugged Industrial Storage Case",
+      "stl_url": "assets/file",
+      "material": "metal",
+      "position": [
+        -4.185056429686129,
+        -6.966442027960517,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "stl_path": "assets/uv_320d935472354cc79590bc35ade9d855.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.9120362997055054,
+        0.39036983251571655,
+        0.37999993562698364
+      ],
+      "stl_bbox_max": [
+        0.4560181498527527,
+        0.19518491625785828,
+        0.37999993562698364
+      ],
+      "stl_bbox_min": [
+        -0.4560181498527527,
+        -0.19518491625785828,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_10e3ff",
+      "mass": 18.0,
+      "size": [
+        0.8,
+        0.8,
+        1.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "label": "Rugged Industrial Storage Case",
+      "stl_url": "assets/file",
+      "material": "metal",
+      "position": [
+        -3.328515826563158,
+        -6.966601981625268,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "stl_path": "assets/uv_320d935472354cc79590bc35ade9d855.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.9120362997055054,
+        0.39036983251571655,
+        0.37999993562698364
+      ],
+      "stl_bbox_max": [
+        0.4560181498527527,
+        0.19518491625785828,
+        0.37999993562698364
+      ],
+      "stl_bbox_min": [
+        -0.4560181498527527,
+        -0.19518491625785828,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_f9d9bb",
+      "mass": 18.0,
+      "size": [
+        0.8,
+        0.8,
+        1.0
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "label": "Rugged Industrial Storage Case",
+      "stl_url": "assets/file",
+      "material": "metal",
+      "position": [
+        -2.4082655821269863,
+        -6.952358484125211,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        90.0
+      ],
+      "stl_path": "assets/uv_320d935472354cc79590bc35ade9d855.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        0.9120362997055054,
+        0.39036983251571655,
+        0.37999993562698364
+      ],
+      "stl_bbox_max": [
+        0.4560181498527527,
+        0.19518491625785828,
+        0.37999993562698364
+      ],
+      "stl_bbox_min": [
+        -0.4560181498527527,
+        -0.19518491625785828,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_ca8117",
+      "mass": 38.0,
+      "size": [
+        1.0702,
+        0.8432,
+        1.2
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "label": "Minimalist Computer Desk with Monitor",
+      "stl_url": "assets/file",
+      "material": "wood",
+      "position": [
+        13.846773388916297,
+        -13.528780230747188,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "stl_path": "assets/uv_00b271fd1d1842bc8f2f5a290443f06e.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        1.0702000000000007,
+        0.8431999999999995,
+        1.2
+      ],
+      "stl_bbox_max": [
+        8.534578446333967,
+        -12.377741085866079,
+        1.2
+      ],
+      "stl_bbox_min": [
+        7.464378446333966,
+        -13.220941085866079,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_8e4f43",
+      "mass": 38.0,
+      "size": [
+        1.0702,
+        0.8432,
+        1.2
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.5,
+        0.5,
+        0.5
+      ],
+      "label": "Minimalist Computer Desk with Monitor",
+      "stl_url": "assets/file",
+      "material": "wood",
+      "position": [
+        15.118832046258191,
+        14.427237166732754,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        270.0
+      ],
+      "stl_path": "assets/uv_00b271fd1d1842bc8f2f5a290443f06e.stl",
+      "_stl_z_min": 0.0,
+      "_stl_extents": [
+        1.0702000000000007,
+        0.8431999999999995,
+        1.2
+      ],
+      "stl_bbox_max": [
+        8.534578446333967,
+        -12.377741085866079,
+        1.2
+      ],
+      "stl_bbox_min": [
+        7.464378446333966,
+        -13.220941085866079,
+        0
+      ]
+    },
+    {
+      "id": "dropped_dup_391fc1",
+      "mass": 3.0,
+      "size": [
+        0.495612,
+        0.499288,
+        0.800816
+      ],
+      "type": "mesh",
+      "alpha": 1.0,
+      "color": [
+        0.78,
+        0.8,
+        0.83
+      ],
+      "label": "Mid-Century Modern Low-Back Dining Chair",
+      "stl_url": "assets/file",
+      "friction": [
+        0.45,
+        0.005,
+        0.0001
+      ],
+      "material": "aluminum",
+      "position": [
+        5.811245972223017,
+        -1.5977651231970305,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        180.0
+      ],
+      "specular": 0.7,
+      "stl_path": "assets/abo_B075YMXWZM.stl",
+      "shininess": 0.6,
+      "_stl_z_min": 0.0,
+      "reflectance": 0.4,
+      "_stl_extents": [
+        0.4956119954586029,
+        0.49928802251815796,
+        0.8008161187171936
+      ],
+      "stl_bbox_max": [
+        0.24780599772930145,
+        0.24964401125907898,
+        0.8008161187171936
+      ],
+      "stl_bbox_min": [
+        -0.24780599772930145,
+        -0.24964401125907898,
+        0
+      ]
+    }
+  ],
+  "robot_id": "unitree_g1"
+}

@@ -1,0 +1,53 @@
+* { box-sizing: border-box; margin: 0; }
+body { font-family: "Segoe UI", system-ui, sans-serif; background: #e8e8ea;
+       color: #111; font-size: 13px; }
+header { display: flex; justify-content: space-between; align-items: center;
+         background: #fff; padding: 8px 16px; border-bottom: 2px solid #111; }
+.logo { display: flex; align-items: center; }
+.logo img { height: 15px; width: auto; display: block; }
+.dots { display: flex; gap: 14px; align-items: center; }
+.dot { width: 9px; height: 9px; border-radius: 50%; background: #c33;
+       display: inline-block; margin-right: 4px; }
+.dot.ok { background: #2c5; }
+main { padding: 10px; display: flex; flex-direction: column; gap: 10px; }
+.card { background: #fff; border-radius: 6px; padding: 8px 10px;
+        box-shadow: 0 1px 3px rgba(0,0,0,.12); }
+.card h3 { font-size: 11px; letter-spacing: 1px; margin-bottom: 6px; }
+.card h3 small { color: #999; font-weight: 400; text-transform: none; }
+.row-top { display: grid; grid-template-columns: 1.2fr 1.2fr 1fr 1fr; gap: 10px; }
+.row-top img, #lidar { width: 100%; aspect-ratio: 4/3; object-fit: cover;
+                       background: #111; border-radius: 4px; }
+#lidar { aspect-ratio: 1/1; background: #fff; border: 1px solid #eee; }
+.rpy { display: flex; justify-content: space-around; margin: 10px 0; }
+.rpy label { display: block; color: #999; font-size: 10px; text-align: center; }
+.rpy b { font-size: 26px; font-weight: 700; }
+.imu-table { width: 100%; font-size: 12px; }
+.imu-table td { background: #f3f3f5; padding: 3px 6px; text-align: right; }
+.imu-table th { text-align: left; color: #777; font-weight: 600; }
+.row-main { display: grid; grid-template-columns: 1fr 280px; gap: 10px; }
+.map-card { min-height: 480px; display: flex; flex-direction: column; }
+#map { flex: 1; width: 100%; background: #b9b9bd; border-radius: 4px;
+       cursor: grab; }
+.panel { display: flex; flex-direction: column; gap: 10px; }
+.toggle { display: flex; border: 1px solid #ccc; border-radius: 6px;
+          overflow: hidden; }
+.toggle button { flex: 1; padding: 8px; border: 0; background: #f5f5f7;
+                 cursor: pointer; font-weight: 600; }
+.toggle button.active { background: #111; color: #fff; }
+.btnrow { display: flex; gap: 6px; margin: 6px 0; }
+.btnrow button, .mini { flex: 1; padding: 6px 8px; border: 1px solid #ccc;
+        border-radius: 5px; background: #fff; cursor: pointer; font-weight: 600; }
+.btnrow button:hover { background: #f0f0f2; }
+button.danger { color: #c33; border-color: #c33; }
+.hint { color: #888; font-size: 11px; margin: 6px 0; }
+.dpad { display: flex; flex-direction: column; align-items: center; gap: 4px;
+        margin: 6px 0; }
+.dpad-mid { display: flex; gap: 4px; }
+.drive { min-width: 44px; padding: 8px 10px; border: 1px solid #ccc;
+         border-radius: 6px; background: #f5f5f7; cursor: pointer;
+         font-weight: 700; font-size: 14px; user-select: none; }
+.drive:hover { background: #e9e9ee; }
+.drive.pressed { background: #111; color: #fff; border-color: #111; }
+#det-list { list-style: none; max-height: 140px; overflow-y: auto; }
+#det-list li { padding: 3px 0; border-bottom: 1px solid #eee; }
+select { flex: 1; padding: 6px; border: 1px solid #ccc; border-radius: 5px; }

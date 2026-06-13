@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.env
+captures/
+maps/
+*.onnx
+*.pt
+.venv/
+venv/
+third_party/
+*.npz
+.pytest_cache/
+deploy_log_*.txt
+MUJOCO_LOG.TXT

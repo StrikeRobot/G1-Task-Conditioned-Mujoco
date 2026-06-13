@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8"/>
+<title>G1 PATROL</title>
+<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<header>
+  <div class="logo"><img src="logo.png" alt="STRIKE ROBOT"/></div>
+  <div class="dots">
+    <span id="dot-cam" class="dot"></span>Camera
+    <span id="dot-depth" class="dot"></span>Depth
+    <span id="dot-lidar" class="dot"></span>LIDAR
+    <span id="dot-imu" class="dot"></span>IMU
+  </div>
+</header>
+
+<main>
+  <section class="row-top">
+    <div class="card"><h3>CAMERA <small>bbox overlay</small></h3>
+      <img id="cam" alt="camera"/></div>
+    <div class="card"><h3>DEPTH <small>colormap</small></h3>
+      <img id="depth" alt="depth"/></div>
+    <div class="card"><h3>LIDAR <small>top-down</small></h3>
+      <canvas id="lidar" width="300" height="300"></canvas></div>
+    <div class="card imu-card"><h3>IMU <small>orientation</small></h3>
+      <div class="rpy">
+        <div><label>ROLL</label><b id="roll">0.0</b></div>
+        <div><label>PITCH</label><b id="pitch">0.0</b></div>
+        <div><label>YAW</label><b id="yaw">0.0</b></div>
+      </div>
+      <table class="imu-table">
+        <tr><th>Accel</th><td id="ax">0</td><td id="ay">0</td><td id="az">0</td></tr>
+        <tr><th>Gyro</th><td id="gx">0</td><td id="gy">0</td><td id="gz">0</td></tr>
+      </table></div>
+  </section>
+
+  <section class="row-main">
+    <div class="card map-card">
+      <h3>SLAM MAP <small>click: set goal (→ Auto) · drag: pan · wheel: zoom ·
+        double-click: fit</small></h3>
+      <canvas id="map"></canvas>
+    </div>
+    <aside class="panel">
+      <div class="card"><h3>DRIVE MODE</h3>
+        <div class="toggle">
+          <button id="btn-manual" class="active">Manual</button>
+          <button id="btn-auto">Auto</button>
+        </div>
+        <p class="hint">Hold a button (or W/S forward·back · A/D turn in place · Q/E strafe)</p>
+        <div class="dpad">
+          <button class="drive" data-vx="1" data-vy="0" data-wz="0">▲ fwd</button>
+          <div class="dpad-mid">
+            <button class="drive" data-vx="0" data-vy="0" data-wz="1">⟲ left</button>
+            <button class="drive" data-vx="-1" data-vy="0" data-wz="0">▼ back</button>
+            <button class="drive" data-vx="0" data-vy="0" data-wz="-1">right ⟳</button>
+          </div>
+          <div class="dpad-mid">
+            <button class="drive" data-vx="0" data-vy="1" data-wz="0">⇐ strafe</button>
+            <button class="drive" data-vx="0" data-vy="-1" data-wz="0">strafe ⇒</button>
+          </div>
+        </div>
+        <p>Robot: <b id="robot-state">OK</b>
+          <button id="btn-reset-robot" class="mini">Reset robot</button></p>
+      </div>
+      <div class="card"><h3>NAVIGATION <small>(Auto mode)</small></h3>
+        <div class="btnrow">
+          <button id="btn-nav-stop" class="danger">■ Stop</button>
+          <button id="btn-nav-patrol">Patrol</button>
+        </div>
+        <p>Status: <b id="nav-status">IDLE</b></p>
+        <p>Telegram alert: <b id="tg-status">MOCK</b></p>
+      </div>
+      <div class="card"><h3>SLAM BUILD</h3>
+        <p>State: <b id="slam-state">idle</b></p>
+        <div class="btnrow">
+          <button id="btn-slam-start">Start</button>
+          <button id="btn-slam-pause">Pause</button>
+          <button id="btn-slam-end" class="danger">End build</button>
+        </div>
+        <div class="btnrow">
+          <button id="btn-slam-save">Save map</button>
+          <button id="btn-slam-reset">Reset</button>
+        </div>
+        <div class="btnrow">
+          <select id="map-select"></select>
+          <button id="btn-slam-load">Load</button>
+          <button id="btn-slam-delete" class="danger">Delete</button>
+        </div>
+      </div>
+      <div class="card"><h3>DETECTIONS</h3>
+        <ul id="det-list"></ul>
+      </div>
+    </aside>
+  </section>
+</main>
+<script src="map.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

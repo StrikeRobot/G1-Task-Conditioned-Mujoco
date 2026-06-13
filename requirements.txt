@@ -1,0 +1,9 @@
+onnxruntime
+ultralytics>=8.3.0
+uvicorn[standard]
+websockets
+python-dotenv
+requests
+pyyaml
+pytest
+httpx
